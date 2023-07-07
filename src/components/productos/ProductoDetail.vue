@@ -32,7 +32,7 @@
                  Visitas: {{ producto.visits }}
             </p>
         </div>
-        <div class="small-6 medium-4 large-3">
+        <div>
             <p class="producto__description" v-html="producto.description"></p>
         </div>
     </div>
@@ -120,9 +120,7 @@ import apiProductos from '@/api/productos'
         font-family: $ff-2;        
     }
     &__description{
-        border: 1px solid;
         margin-top: 1em;
-        margin: 50px;
     }
 }
 </style>

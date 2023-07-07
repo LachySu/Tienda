@@ -1,4 +1,4 @@
-<template>
+<template> 
   <div class="cell grid-x grid-margin-x">
     <div 
         class="cell small-6 medium-4 large-3" 

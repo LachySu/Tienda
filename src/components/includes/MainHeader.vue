@@ -1,9 +1,17 @@
 <template>
   <div class="header">
-    <router-link class="header__logo" :to="{name: 'home'}">Mi Catalogo</router-link>
+    <router-link 
+      class="header__logo"
+      :to="{name: 'home'}">
+      Mi Catalogo
+    </router-link>
     <ul class="header__menu">
       <li class="header__menu__item">
-        <router-link class="header__menu__item__link" :to="{name: 'productos'}">Productos</router-link>
+        <router-link 
+          class="header__menu__item__link" 
+          :to="{name: 'productos'}">
+          Productos
+        </router-link>
       </li>
       <li class="header__menu__item">
         <router-link 
@@ -30,12 +38,13 @@ export default {
   background: $color-3;
   display: flex;
   justify-content: space-between;
-  padding: 1em;
+  padding: 0px;
   &__logo{
     color: $color-2;
     font-family: $ff-1;
     font-size: 30px;
     text-decoration: none;
+    padding-left: 5px;
   }
   &__menu{
     display: flex;

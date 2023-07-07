@@ -25,12 +25,12 @@ const routes = [
         name: 'categorias',
         component: ProductoPorCategoriaPage
       },
+      {
+        path: '/categorias/detalle-producto/:id',
+        name: 'detalle-producto',
+        component: ProductosDetailPage
+      },
     ]
-  },
-  {
-    path: '/detalle-producto/:id',
-    name: 'detalle-producto',
-    component: ProductosDetailPage
   },
 ]
 

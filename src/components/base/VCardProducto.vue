@@ -2,7 +2,7 @@
   <div class="producto">
     <img 
         class="producto__img" 
-        :src="image">  
+        :src="image">    
     <router-link 
         class="producto__name"
         :to="ruta">

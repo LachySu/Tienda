@@ -1,4 +1,5 @@
 <template>
+  <router-view/>
     <div class="cell grid-x grid-margin-x">
         <div 
             class="cell small-6 medium-4 large-3" 
@@ -10,9 +11,8 @@
                     :price="parseFloat(producto.price)"
                     :ruta="{name: 'detalle-producto', params:{id: producto.id}}"
                 />
-        </div>
-        
-    </div>
+        </div>       
+    </div>        
 </template>
 
 <script>
